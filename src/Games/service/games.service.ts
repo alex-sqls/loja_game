@@ -2,7 +2,7 @@ import { HttpException, HttpStatus, Injectable } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
 import { Games } from "../entities/games.entity";
 import { DeleteResult, Like, Repository } from "typeorm";
-import { MarcadoresService } from "src/Marcadores/services/marcadores.service";
+import { MarcadoresService } from "src/marcadores/services/marcadores.service";
 
 
 // regras de registro

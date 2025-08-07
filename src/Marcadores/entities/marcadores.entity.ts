@@ -1,5 +1,5 @@
 import { IsNotEmpty } from "class-validator";
-import { Games } from "src/Games/entities/games.entity";
+import { Games } from "src/games/entities/games.entity";
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity({name:"tb_marcadores"})

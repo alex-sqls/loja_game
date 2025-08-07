@@ -1,8 +1,9 @@
 import { Module } from "@nestjs/common";
 import { TypeOrmModule } from "@nestjs/typeorm";
-import { Marcadores } from "./entities/marcadores.entity";
 import { MarcadoresService } from "./services/marcadores.service";
+import { Marcadores } from "./entities/marcadores.entity";
 import { MarcadoresController } from "./controllers/marcadores.controller";
+
 
 @Module({
     imports: [TypeOrmModule.forFeature([Marcadores])],

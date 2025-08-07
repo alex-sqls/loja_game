@@ -1,7 +1,6 @@
-
+import { Body, Controller, Delete, Get, HttpCode, HttpStatus, Param, ParseIntPipe, Post, Put} from "@nestjs/common"
 import { GamesService } from "../service/games.service";
 import { Games } from "../entities/games.entity";
-import { Body, Controller, Delete, Get, HttpCode, HttpStatus, Param, ParseIntPipe, Post, Put} from "@nestjs/common"
 
 
 

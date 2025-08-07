@@ -1,5 +1,5 @@
 import { IsNotEmpty } from "class-validator";
-import { Marcadores } from "src/Marcadores/entities/marcadores.entity";
+import { Marcadores } from "src/marcadores/entities/marcadores.entity";
 import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 
 
